@@ -1,15 +1,13 @@
 {
-    "name": "Tactical Ops Server Bot", 
+    "name": "tosb",
     "description": "List all tactical ops servers",
     "version": "0.0.0",
     "main": "bot.js",
-
-    "scripts": { 
+    "scripts": {
         "start": "node bot.js"
     },
-  
-    "dependencies": {  
-      "discord.js": "11.1.0",
-      "request": "2.81.0"
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "request": "^2.88.2"
     }
 }
